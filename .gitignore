@@ -28,6 +28,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project-specific
-data/sample_data/*.csv    # regenerate with generate_sample.py
+# Project-specific — keep sample CSVs for immediate demo use
 *.pdf
