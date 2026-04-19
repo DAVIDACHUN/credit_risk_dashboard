@@ -1,0 +1,16 @@
+cusip,issuer,sector,rating,notional_mm,coupon_bps,mat_yrs,cs01_usd,init_spread_bps,rating_current
+12345A100,CloudSoft Inc,Software,B,25,550,5,10625.0,445,
+12345B200,DataSys Corp,Software,B-,20,600,4,6800.0,520,CCC+
+12345C300,AppWorks LLC,Software,B,15,575,5,6375.0,465,
+12345D400,TechServices Inc,Software,B+,20,500,6,10200.0,390,
+12345E500,CloudInfra LLC,Software,B,18,560,4,6120.0,430,
+23456A100,MedTech Partners,Healthcare,BB-,30,425,7,17850.0,285,
+23456B200,CareBridge Health,Healthcare,B+,22,475,5,9350.0,375,
+34567A100,RetailCo Inc,Retail,B,20,550,4,6800.0,485,
+34567B200,ShopNet LLC,Retail,B-,15,600,3,3825.0,555,CCC+
+45678A100,IndustrialCo,Industrials,BB,25,375,7,14875.0,225,
+45678B200,ManufactCo,Industrials,BB+,20,350,6,10200.0,185,
+56789A100,EnergyPipe Corp,Energy,BB-,18,450,5,7650.0,315,
+56789B200,MidStreamCo,Energy,BB,22,400,6,11220.0,265,
+67890A100,PrivateCo Alpha,Private Credit,B,30,650,4,10200.0,625,
+67890B200,PrivateCo Beta,Private Credit,B-,25,725,3,6375.0,780,

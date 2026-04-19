@@ -1,0 +1,21 @@
+pnl:
+  daily_loss_warn:   -250000      # $-250k daily P&L warning
+  daily_loss_breach: -500000      # $-500k daily P&L breach
+  residual_pct_warn:  0.15        # residual > 15% of gross → warning
+  residual_pct_breach: 0.25       # residual > 25% → breach
+
+hedge:
+  efficiency_warn:    0.70        # hedge efficiency < 70% → warning
+  efficiency_breach:  0.50        # hedge efficiency < 50% → breach
+  net_cs01_warn:      50000       # |net CS01| > $50k → warning
+  net_cs01_breach:    100000      # |net CS01| > $100k → breach
+  hedge_ratio_warn:   0.80        # sleeve hedge ratio < 80% → warning
+
+basis:
+  basis_warn_bps:     -50         # bond-CDS basis < -50bps → warning
+  basis_breach_bps:  -100         # bond-CDS basis < -100bps → breach
+  basis_change_warn:   15         # daily basis move > 15bps → warning
+
+data_quality:
+  staleness_days:       2         # data older than 2 days → stale alert
+  missing_spread_pct:   0.05      # > 5% missing spreads → alert
